@@ -1,0 +1,167 @@
+.header{
+  width: 100%;
+  height: 150px;
+  background-image: url(images/mochaGrunge.png);
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 1px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  min-width:1024px;
+}
+
+.logo{
+
+  margin-right: 10%;
+  float:right;
+}
+
+.name{
+  text-align:center;
+  font-family:Roboto;
+  width: 250px;
+  margin: 0 auto;
+  right: calc(50% - 125);
+  line-height:570%;
+  float: middle;
+}
+
+.navLinkBox{
+  position:relative;
+  width: 250px;
+  height: 80px;
+  margin-left: 10%;
+  background-image:url(images/husk.png);
+  float: left;
+  margin-top: 30px;
+  border:solid black 1px;
+  border-radius:8px;
+}
+
+.navLink{
+  font-family: "Source Sans Pro",serif;
+  font-weight:bold;
+  font-size:16px;
+  position:relative;
+  text-decoration:none;
+  color:black;
+  padding-left:18px;
+  padding-right:18px;
+  line-height:470%;
+}
+
+.main{
+  margin: 0 auto;
+  left: calc(50% - 612);
+  margin-top:30px;
+  width: 1024px;
+}
+
+.game_entry{
+  margin-left: 10px;
+}
+
+.text_h{
+  text-align:center;
+  font-family:Roboto;
+}
+
+.game_picture{
+  margin-right:20px;
+  margin-top:10px;
+  margin-bottom:10px;
+  float:left;
+}
+
+.game_text{
+  margin-top:25px;
+  line-height:175%;
+}
+
+.game_link_box{
+
+}
+
+.game_link{
+  font-family: "Source Sans Pro",serif;
+  font-weight:bold;
+  font-size:18px;
+  position:relative;
+  text-decoration:none;
+  color:#F0C175;
+  padding-left:15px;
+  padding-right:15px;
+  line-height:400%;
+}
+
+.carousel{
+  height:500;
+}
+
+.link_box_left{
+  font-family:Roboto;
+  font-weight: bold;
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-left: 400px;
+  
+  text-align: center;;
+}
+.link_box_right{
+  font-family:Roboto;
+  font-weight: bold;
+  float: right;
+  margin-right: 400px;
+  height: 100px;
+  width: 100px;
+ 
+  
+  text-align: center;;
+}
+
+#back_game_entry{
+  height:450px;
+}
+#back_game_entry2{
+  height:450px;
+}
+#wheel_game_entry{
+  height:420px;
+}
+#feel_game_entry{
+  height:415px;
+}
+#wheel_game_picture{
+  margin-right:126px;
+}
+#feel_game_picture{
+  margin-right:42px;
+}
+
+#cf {
+position:relative;
+height: 340px;
+width: 340px;
+margin-right:20px;
+  margin-top:10px;
+  margin-bottom:10px;
+  float:left;
+}
+
+#cf img {
+position:absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
