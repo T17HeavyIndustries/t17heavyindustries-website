@@ -42,17 +42,16 @@ require "includes/noCache.inc";
       
       <div class = "link_box_left">
         <p>Paid</p>
-        <a href "https://play.google.com/store/apps/details?id=com.t17heavyindustries.back_and_forth">
+        <a href = "https://play.google.com/store/apps/details?id=com.t17heavyindustries.back_and_forth">
           <img src = "images/fire.png">
         </a>
       </div>
       <div class = "link_box_right">
         <p>Free</p>
-        <a href "https://play.google.com/store/apps/details?id=com.t17heavyindustries.back_and_forth_free">
-          <img src = "images/fire.png">
+        <a href = "https://play.google.com/store/apps/details?id=com.t17heavyindustries.back_and_forth_free">
+          <img src = "images/desert.png">
         </a>
       </div>
-
     </div>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
